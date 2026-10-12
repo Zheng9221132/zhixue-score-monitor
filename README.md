@@ -30,14 +30,12 @@
 
 ### 1. 获取 Cookie
 
-1. 用浏览器登录 [https://www.zhixue.com](https://www.zhixue.com)
-2. 按 `F12` 打开开发者工具
-3. 进入 **Network（网络）** 标签页
-4. 刷新页面，点开任意一个请求
-5. 在 **Request Headers（请求头）** 中找到 `Cookie:` 这一行
-6. 复制 `Cookie:` 后面的完整内容
+在浏览器控制台执行 
 
-> 也可以在浏览器控制台执行 `document.cookie`，但推荐从 Network 里复制完整请求头，更可靠。
+```
+copy(document.cookie)
+```
+就会自动复制cookie
 
 ### 2. 运行脚本
 
